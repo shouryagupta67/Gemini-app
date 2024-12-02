@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import './Sidebar.css'
 import { assets } from '../../assets/assets'
-import { Context } from '../../context/Context'
+import { Context } from '../../context/context'
 
 export default function Sidebar() {
     const [extended, setExtended] = useState(false)
@@ -19,6 +19,9 @@ const loadPrompt = async (prompt)=>{
                     <img src={assets.plus_icon} alt="" />
                     {extended ? <p>New chat</p> : null}
                 </div>
+               
+
+                
                 {extended ?
                     <div className="recent">
 

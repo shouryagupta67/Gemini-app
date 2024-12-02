@@ -14,6 +14,7 @@ import send_icon from './send_icon.png'
 import setting_icon from './setting_icon.png'
 import user_icon from './user_icon.png'
 import youtube_icon from './youtube_icon.png'
+import shouryaimg from './shouryaimg.jpg'
 
 export const assets ={
     history_icon,
@@ -21,6 +22,7 @@ export const assets ={
     plus_icon,
     bulb_icon,
     code_icon,
+    shouryaimg,
     compass_icon,
     gallery_icon,
     gallery_icon2,
