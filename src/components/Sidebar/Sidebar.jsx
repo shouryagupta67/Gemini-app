@@ -19,8 +19,6 @@ const loadPrompt = async (prompt)=>{
                     <img src={assets.plus_icon} alt="" />
                     {extended ? <p>New chat</p> : null}
                 </div>
-               
-
                 
                 {extended ?
                     <div className="recent">
