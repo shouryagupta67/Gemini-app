@@ -83,6 +83,9 @@
     border-radius: 50px;
 
 }
+.main .nav img{
+    width: 40px;
+}
 .search-box img{
     width: 24px;
     cursor: pointer;
